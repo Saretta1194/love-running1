@@ -1,17 +1,21 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400&family=Oswald:wght@200..700&display=swap');
+
 /* Asterisk wildcard selector to a override default styles added by browser */
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Styles */
+/* General styles */
 body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color:#3a3a3a;
+    color: #3a3a3a;
+    font-family:"lato", sans-serif;
 }
 
 
@@ -20,9 +24,9 @@ body {
 header {
     background-color: lightcoral;
 }
-/* Main Content*/
+/* Main content*/
 main { 
-    background: lightblue;
+    background-color: lightblue;
     flex:auto;
     /* Make main element take up any surplus space to push footer down */
 }
